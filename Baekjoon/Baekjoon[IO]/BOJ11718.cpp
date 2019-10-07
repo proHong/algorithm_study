@@ -5,7 +5,7 @@ int main()
 {
 	char input[111];
 
-	while (scanf("%[^\n]\n", input) == 2)
+	while (scanf("%[^\n]\n", input) == 1)
 	{
 		printf("%s\n", input);
 	}
