@@ -19,14 +19,14 @@ int main()
 {
 	int n;
 	scanf("%d", &n);
-	vector<pair<pair<int,int>, string>> v;
+	vector<pair<pair<int, int>, string>> v;
 	for (int i = 0; i < n; i++)
 	{
 		int x;
 		char y[51];
 		scanf("%d %s", &x, &y);
 		string temp(y);
-		v.push_back(make_pair(make_pair(x,i), temp));
+		v.push_back(make_pair(make_pair(x, i), temp));
 	}
 	sort(v.begin(), v.end(), cmp);
 
