@@ -32,7 +32,7 @@ int main()
 		bool k = false;
 		for (int i = 3; i <= temp/2; i += 2)
 		{
-			if (!num[temp - i])
+			if (!num[temp - i] && !num[i])
 			{
 				printf("%d = %d + %d\n", temp, i, temp - i);
 				k = true;
